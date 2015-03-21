@@ -1,0 +1,9 @@
+Package: org.thebigboss.airdropflipswitch
+Name: AirDrop Flipswitch
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 7.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Toggle for AirDrop.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Addons (Flipswitch)
