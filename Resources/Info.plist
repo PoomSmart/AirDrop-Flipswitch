@@ -26,8 +26,6 @@
 	<string>3.0</string>
 	<key>NSPrincipalClass</key>
 	<string>AirDropSwitch</string>
-	<key>lazy-load</key>
-	<true/>
 	<key>settings-view-controller-class</key>
 	<string>AirDropSwitchSettingsViewController</string>
 </dict>
