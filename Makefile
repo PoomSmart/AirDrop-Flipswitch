@@ -1,11 +1,10 @@
-GO_EASY_ON_ME = 1
-SDKVERSION = 7.0
-ARCHS = armv7 arm64
+DEBUG = 0
+PACKAGE_VERSION = 0.0.2
 
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = AirDropToggle
-AirDropToggle_FILES = Switch.xm
+AirDropToggle_FILES = Settings.m Switch.xm
 AirDropToggle_FRAMEWORKS = UIKit
 AirDropToggle_PRIVATE_FRAMEWORKS = Sharing
 AirDropToggle_LIBRARIES = flipswitch substrate
